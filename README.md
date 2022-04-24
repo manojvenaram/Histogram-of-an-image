@@ -7,20 +7,19 @@ Anaconda - Python 3.7
 
 ## Algorithm:
 ### Step1:
-<br>
+Import cv2, matplotlib.py libraries and display the saved images using cv2.imshow().
 
 ### Step2:
-<br>
+Use cv2.calcHist(images, channels, mask, histSize, ranges[, hist[, accumulate]]) to find the histogram of the image.
 
 ### Step3:
-<br>
+Plot the image and its stem plots using the plt.show() and plt.stem() functions.
 
 ### Step4:
-<br>
+Equalize the grayscale image using the in-built function cv2.equalizeHist().
 
 ### Step5:
-<br>
-
+Print the original and equalized image using cv2.imshow() and end the program.
 ## Program:
 ```python
 # Developed By: MANOJ CHOUDHARY V
@@ -66,22 +65,12 @@ cv2.destroyAllWindows
 ```
 ## Output:
 ### Input Grayscale Image and Color Image
-<br>
-<br>
-<br>
-<br>
-
+![](1.png)
 ### Histogram of Grayscale Image and any channel of Color Image
-<br>
-<br>
-<br>
-<br>
+![](2.png)
 
 ### Histogram Equalization of Grayscale Image
-<br>
-<br>
-<br>
-<br>
+![](3.png)
 
 ## Result: 
 Thus the histogram for finding the frequency of pixels in an image with pixel values ranging from 0 to 255 is obtained. Also,histogram equalization is done for the gray scale image using OpenCV.
