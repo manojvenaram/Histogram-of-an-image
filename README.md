@@ -52,12 +52,14 @@ plt.stem(hist1)
 plt.show()
 
 # Write the code to perform histogram equalization of the image. 
-gray_image = cv2.imread("gray1.jpg",0)
-cv2.imshow("Gray Image",gray_image)
-equ = cv2.equalizeHist(gray_image)
-cv2.imshow("Equalized Image",equ)
+greyscale=cv2.imread("1.jpg",0)
+colorscale=cv2.imread("2.jpeg")
+g=cv2.resize(greyscale,(500,400))
+equ=cv2.equalizeHist(gi)
+cv2.imshow("Grey Scale",g)
+cv2.imshow("Equalization",equ)
 cv2.waitKey(0)
-cv2.destroyAllWindows
+cv2.destroyAllWindows()
 
 ```
 ## Output:
