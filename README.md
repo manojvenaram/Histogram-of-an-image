@@ -22,8 +22,8 @@ Equalize the grayscale image using the in-built function cv2.equalizeHist().
 Print the original and equalized image using cv2.imshow() and end the program.
 ## Program:
 ```python
-# Developed By: MANOJ CHOUDHARY V
-# Register Number: 212221240025
+# Developed By: MIRUDHULA D
+# Register Number: 212221230060
 import cv2
 import matplotlib.pyplot as plt
 
